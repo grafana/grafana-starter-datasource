@@ -10,12 +10,12 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
     super(instanceSettings);
   }
 
-  query(options: DataQueryRequest<MyQuery>): Promise<DataQueryResponse> {
+  async query(options: DataQueryRequest<MyQuery>): Promise<DataQueryResponse> {
     const { range } = options;
     const from = range.from.valueOf();
     const to = range.to.valueOf();
 
-    // Return a constant for each query
+    // Return a constant for each query.
     const data = options.targets.map(target => {
       const query = defaults(target, defaultQuery);
       return new MutableDataFrame({
@@ -27,17 +27,15 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
       });
     });
 
-    return Promise.resolve({ data });
+    return { data };
   }
 
-  testDatasource() {
+  async testDatasource() {
     // Implement a health check for your data source.
 
-    return new Promise((resolve, reject) => {
-      resolve({
-        status: 'success',
-        message: 'Success',
-      });
-    });
+    return {
+      status: 'success',
+      message: 'Success',
+    };
   }
 }
