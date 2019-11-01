@@ -13,6 +13,8 @@
   "devDependencies": {
     "@grafana/data": "latest",
     "@grafana/toolkit": "latest",
-    "@grafana/ui": "latest"
+    "@grafana/ui": "latest",
+    "@types/lodash": "latest",
+    "lodash": "latest"
   }
 }
