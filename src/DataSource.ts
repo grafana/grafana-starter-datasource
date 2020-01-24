@@ -11,8 +11,8 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
 
   async query(options: DataQueryRequest<MyQuery>): Promise<DataQueryResponse> {
     const { range } = options;
-    const from = range.from.valueOf();
-    const to = range.to.valueOf();
+    const from = range!.from.valueOf();
+    const to = range!.to.valueOf();
 
     // Return a constant for each query.
     const data = options.targets.map(target => {
