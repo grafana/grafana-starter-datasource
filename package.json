@@ -1,6 +1,6 @@
 {
   "name": "grafana-simple-datasource",
-  "version": "0.9.0-dev",
+  "version": "0.9.0",
   "description": "Example of a Grafana Data Source",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
