@@ -1,7 +1,8 @@
 {
   "type": "datasource",
   "name": "Simple Data Source",
-  "id": "myorgid-simple-datasource",
+  "id": "grafana-simple-datasource",
+
   "metrics": true,
 
   "info": {
@@ -24,7 +25,7 @@
   },
 
   "dependencies": {
-    "grafanaVersion": "6.5.x",
+    "grafanaVersion": "6.6.x",
     "plugins": []
   }
 }
