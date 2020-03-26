@@ -15,5 +15,11 @@
     "@grafana/toolkit": "next",
     "@grafana/ui": "next",
     "@types/lodash": "latest"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.9.0"
+  },
+  "engines": {
+    "node": ">=12 <13"
   }
 }
