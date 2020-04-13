@@ -7,7 +7,7 @@
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch",
-    "postinstall": "grafana-toolkit plugin:update-circleci"
+    "postinstall": "grafana-toolkit plugin:update-circleci || true"
   },
   "author": "Grafana Labs",
   "license": "Apache-2.0",
