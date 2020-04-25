@@ -1,11 +1,11 @@
 {
   "type": "datasource",
-  "name": "Simple Data Source",
+  "name": "Grafana Data Source Plugin Template",
   "id": "myorgid-simple-datasource",
   "metrics": true,
 
   "info": {
-    "description": "Simple Data Source",
+    "description": "Grafana Data Source Plugin Template",
     "author": {
       "name": "Your Name"
     },

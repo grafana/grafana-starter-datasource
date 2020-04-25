@@ -1,7 +1,7 @@
 {
   "name": "simple-datasource",
   "version": "1.0.0",
-  "description": "Example of a Grafana Data Source",
+  "description": "Grafana Data Source Plugin Template",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
@@ -11,9 +11,9 @@
   "author": "Grafana Labs",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "next",
-    "@grafana/toolkit": "next",
-    "@grafana/ui": "next",
+    "@grafana/data": "canary",
+    "@grafana/toolkit": "canary",
+    "@grafana/ui": "canary",
     "@types/lodash": "latest"
   },
   "engines": {
