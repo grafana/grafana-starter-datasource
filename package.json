@@ -11,9 +11,9 @@
   "author": "Grafana Labs",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "7.0.1",
-    "@grafana/toolkit": "7.0.1",
-    "@grafana/ui": "7.0.1",
+    "@grafana/data": "canary",
+    "@grafana/toolkit": "canary",
+    "@grafana/ui": "canary",
     "@types/lodash": "latest",
     "@testing-library/jest-dom": "5.4.0",
     "@testing-library/react": "^10.0.2"
