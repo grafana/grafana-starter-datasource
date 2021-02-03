@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
   "name": "Grafana Data Source Plugin Template",
   "id": "myorgid-simple-datasource",
@@ -15,8 +16,8 @@
       "large": "img/logo.svg"
     },
     "links": [
-      { "name": "Website", "url": "https://github.com/grafana/simple-datasource" },
-      { "name": "License", "url": "https://github.com/grafana/simple-datasource/blob/master/LICENSE" }
+      { "name": "Website", "url": "https://github.com/grafana/grafana-starter-datasource" },
+      { "name": "License", "url": "https://github.com/grafana/grafana-starter-datasource/blob/master/LICENSE" }
     ],
     "screenshots": [],
     "version": "%VERSION%",
@@ -24,7 +25,7 @@
   },
 
   "dependencies": {
-    "grafanaVersion": "6.5.x",
+    "grafanaDependency": ">=7.0.0",
     "plugins": []
   }
 }
