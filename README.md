@@ -1,3 +1,10 @@
+## ⚠️ Deprecated!
+
+**This repository is deprecated.** <br />
+A more up-to-date version of examples is available here: https://github.com/grafana/grafana-plugin-examples
+
+---
+
 # Grafana Data Source Plugin Template
 
 [![Build](https://github.com/grafana/grafana-starter-datasource/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-datasource/actions?query=workflow%3A%22CI%22)
